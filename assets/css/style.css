@@ -1,0 +1,302 @@
+
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Merriweatheritalic";
+  src: url(../fonts/Merriweather-Italic.ttf);
+}
+
+@font-face{
+  font-family: "Merriweatherregular";
+  src: url(../fonts/Merriweather-Regular.ttf);
+}
+
+@font-face {
+  font-family: "BlackJackRegular";
+  src:url(../fonts/blackJack.ttf);
+}
+
+.pageLayout{
+  height: 92em;
+  background-image: url(../img/lespendus.jpeg);
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+header #titre{
+  font-family: "BlackJackRegular";
+  width: 475px;
+  margin-bottom: 10%;
+}
+
+.title{
+  font-family: "BlackJackRegular";
+  margin:0;
+  width: 475px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.headcontent{
+  margin-top: 50vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.head{
+  text-align: center;
+}
+
+.iconDown{
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+
+.typeahead,
+.tt-query,
+.tt-hint {
+  padding: 8px 12px;
+  font-size: 2.5vh;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  outline: none;
+  height: 40px;
+  line-height: 30px;
+  border: 2px solid #ccc;
+}
+
+.typeahead {
+  background-color: #fff;
+}
+
+.typeahead:focus {
+  border: 2px solid #e22e2d;
+}
+
+.tt-query {
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+}
+
+.tt-hint {
+  color: #999;
+}
+
+.tt-menu {
+  width: 310px;
+  margin-top: 12px;
+  padding: 8px 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  -moz-box-shadow: 0 5px 10px rgba(0,0,0,.2);
+  box-shadow: 0 5px 10px rgba(0,0,0,.2);
+}
+
+.tt-suggestion {
+ width: 310px;
+}
+
+.tt-suggestion.tt-cursor, .tt-suggestion:hover {
+  background-color: #0097cf;
+
+}
+
+.input-group{
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(-50%);
+  font-family: "Merriweatherregular";
+}
+
+tt-highlight{
+  color:red;
+}
+
+#firsthead{
+  background-image: url(../img/lespendus.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+
+label{
+  color: #FFFFFF;
+  font-family: "Merriweatherregular";
+}
+
+.listSpectacle .col-md-4{
+  padding: 15px;
+}
+
+.opacity{
+  padding: 15px;
+  height: 30vh;
+  background-color: rgba(255,255,255,0.3);
+  z-index: 1;
+  width: 100%;
+}
+
+.boutonModal{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+}
+
+.boutonModal h3{
+  font-family: "Merriweatheritalic";
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.boutonModal p{
+  font-family: "Merriweatherregular";
+  font-size: 1em;
+  text-align: center;
+}
+
+.boutonModal a{
+  text-decoration: none;
+  color:#FFFFFF;
+}
+
+.boutonModal a:hover{
+  text-decoration: none;
+  color:#e22e2d;
+}
+.knowMore{
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #B61817;
+  color: #FFFFFF;
+  background-color: #B61817;
+  width: 50%;
+  font-size: 1em;
+}
+
+.knowMore:hover{
+  color: #424141;
+  background-color: #e22e2d;
+}
+
+.pagination li a{
+  background-color: #212020 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #212020 !important;
+}
+
+.pagination li a:hover{
+  color: #e22e2d !important;
+}
+
+ul .pagination{
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1.3rem;
+  background-color: #5f1e25;
+  text-align: center;
+}
+
+.mail{
+  fill: #FFFFFF;
+  width: 70px;
+  height: 70px;
+  padding-right: 0.5%;
+}
+
+.git{
+  fill: #FFFFFF;
+  width: 70px;
+  height: 70px;
+  padding-right: 0.5%;
+}
+
+.twitt{
+  width: 65px;
+  height: 65px;
+  padding-bottom: 5px;
+  fill: #FFFFFF;
+}
+
+
+@media screen and (max-width: 640px) {
+
+ text {
+  font-size: 3em;
+}
+
+.input-group{
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Merriweatherregular";
+}
+
+.git{
+  fill: #FFFFFF;
+  width: 50px;
+  height: 50px;
+  padding-right: 0.5%;
+}
+
+.twitt{
+  width: 50px;
+  height: 50px;
+  padding-bottom: 2px;
+  fill: #FFFFFF;
+}
+
+}
+
+
+@media screen and (max-width: 415px) {
+
+  text {
+    font-size: 2.8em;
+  }
+
+  .pageLayout{
+    height: 47em;
+    background-image: url(../img/lespendus.jpeg);
+    background-size: cover;
+    overflow-x: hidden;
+  }
+
+}
+
+@media screen and (max-width: 361px) {
+
+  text {
+    font-size: 2.6em;
+  }
+
+}
+
+@media screen and (max-width: 321px) {
+
+  text {
+    font-size: 2.2em;
+  }
+
+
+}
